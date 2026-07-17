@@ -4,8 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>meu site pessoal</title>
-<link rel="stylesheet" href="css/pessoal.css">
+<title>Meu Blog Pessoal</title>
+
 
 
 </head>
@@ -14,23 +14,20 @@
 
 <header>
 
-<img src="img/eu.jpeg" alt="Foto" class="perfil">
+<img src="./img/euzinha.jpg" alt="perfil">
 
 <h1>Thays de Mendonça Gomes</h1>
 
 <p>Estudante de Programação Full Stack 💻</p>
 
-<input type="checkbox" id="tema">
-
-<label for="tema" class="botao">
-🌙 Modo Escuro
-</label>
+<button onclick="modoEscuro()">🌙 Modo Escuro</button>
 
 </header>
 
 <nav>
 
 <a href="#sobre">Sobre</a>
+
 
 
 <a href="#galeria">Galeria</a>
@@ -47,9 +44,11 @@
 
 <p>
 Olá! Meu nome é <strong>Thays de Mendonça Gomes</strong>.
-<br>
+Sobre mim
 
-Criei este espaço para compartilhar um pouco da minha história, das minhas conquistas, dos desafios que enfrento e de tudo o que venho aprendendo ao longo da vida. 
+Oi! Eu sou a Thays de Mendonça Gomes.
+
+Criei este espaço para compartilhar um pouco da minha história, das minhas conquistas, dos desafios que enfrento e de tudo o que venho aprendendo ao longo da vida.
 
 Atualmente, estou estudando Programação Full Stack e descobrindo um novo mundo na tecnologia. Cada aula e cada projeto representam uma oportunidade de crescer, aprender e me aproximar dos meus objetivos.
 
@@ -100,13 +99,13 @@ com tecnologia.
 
 <div class="galeria">
 
-<img src="img/paisagem.jpg">
+<img src="https://picsum.photos/300?1">
 
-<!--<img src="https://picsum.photos/300?2">
+<img src="https://picsum.photos/300?2">
 
 <img src="https://picsum.photos/300?3">
 
-<img src="https://picsum.photos/300?4">-->
+<img src="https://picsum.photos/300?4">
 
 </div>
 
@@ -160,7 +159,7 @@ com tecnologia.
 
 </footer>
 
-
+<script>
 
 function modoEscuro(){
 
@@ -168,6 +167,7 @@ document.body.classList.toggle("dark");
 
 }
 
+</script>
 
 </body>
 </html>
