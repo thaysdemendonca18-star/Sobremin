@@ -107,3 +107,17 @@ footer{
 .dark footer{
     background:black;
 }
+
+#tema{
+    display:none;
+}
+
+.botao{
+    background:#6a11cb;
+    color:white;
+    padding:12px 20px;
+    border-radius:30px;
+    cursor:pointer;
+    display:inline-block;
+    margin-top:20px;
+}
