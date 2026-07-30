@@ -31,7 +31,7 @@ header {
   background: linear-gradient(135deg, #0077ff, #7b2cff);
   color: white;
   text-align: center;
-  padding: 100% 20px;
+  padding: 50px 20px;
 }
 header button {
   margin-top: 20px;
@@ -74,7 +74,7 @@ section {
   max-width: 180px;
   aspect-ratio: 1/1;
   border-radius: 50%;
-  display:flex;
+  display:block;
   margin: 20px auto;
 }
 .perfil:hover {
@@ -83,7 +83,8 @@ section {
 }
 
 .dark.card {
-  background: white;
+  background:#1f1f1f;
+  color: white;
   padding: 20px;
   margin-top: 20px;
   border-radius: 10px;
