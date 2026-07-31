@@ -9,4 +9,4 @@ function modoEscuro() {
           botao.innerHTML = "🌙 Modo Escuro";
         }
       }
-      console.log("testando")
+     
