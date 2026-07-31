@@ -1,12 +1,11 @@
 function modoEscuro() {
-        document.body.classList.toggle("dark");
+  document.body.classList.toggle("dark");
 
-        const botao = document.getElementById("botaotema");
+  const botao = document.getElementById("botaotema");
 
-        if (document.body.classList.contains("dark")) {
-          botao.innerHTML = "☀️ Modo Claro";
-        } else {
-          botao.innerHTML = "🌙 Modo Escuro";
-        }
-      }
-     
+  if (document.body.classList.contains("dark")) {
+    botao.innerHTML = "☀️ Modo Claro";
+  } else {
+    botao.innerHTML = "🌙 Modo Escuro";
+  }
+}

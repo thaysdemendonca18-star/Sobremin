@@ -74,7 +74,7 @@ section {
   max-width: 180px;
   aspect-ratio: 1/1;
   border-radius: 50%;
-  display:block;
+  display: block;
   margin: 20px auto;
 }
 .perfil:hover {
@@ -146,34 +146,31 @@ a {
   background: #333;
   color: white;
 }
-@media (max-width:768px){
+@media (max-width: 768px) {
+  .card {
+    width: 95%;
+    padding: 20px;
+  }
 
-    .card{
-        width:95%;
-        padding:20px;
-    }
+  h1 {
+    font-size: 40px;
+  }
 
-    h1{
-        font-size:40px;
-    }
+  h2 {
+    font-size: 30px;
+  }
 
-    h2{
-        font-size:30px;
-    }
+  nav {
+    gap: 15px;
+    flex-wrap: wrap;
+  }
 
-    nav{
-        gap:15px;
-        flex-wrap:wrap;
-    }
+  nav a {
+    font-size: 16px;
+  }
 
-    nav a{
-        font-size:16px;
-    }
-
-    .perfil{
-        width:160px;
-        height:160px;
-    }
-
+  .perfil {
+    width: 160px;
+    height: 160px;
+  }
 }
-
